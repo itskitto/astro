@@ -1,10 +1,10 @@
 export const sidebar = [
   {
-    text: 'Welcome to Astro',
-    link: '/',
+    text: 'Introduction',
+    link: '', // No leading slash needed, so this links to the homepage
     children: [
-      { text: 'Why Astro?', link: '/why-astro' },
-      { text: 'Island Architecture', link: '/island-architecture' },
+      { text: 'Getting Started', link: 'getting-started' },
+      { text: 'Example', link: 'example' },
     ],
   },
   {
